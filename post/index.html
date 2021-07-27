@@ -77,9 +77,14 @@
 </header>
 <section class=entry-content>
 <p>Windows에서 Hugo 설정을 하기 위한 여정
-1. Scoop 설치 Hugo가</p>
+1. Scoop 설치 Hugo가 binary 형태 파일을 제공하기는 하지만, 아무래도 활용하기 불편하여 Scoop을 활용한 설치를 진행했다.
+많이 활용하고 있는 Ubuntu나 Mac 환경에서 활용하는 apt나 brew 같은 역할을 한다고 하는데, 이번에 처음 활용해보게 되었음.
+Scoop 설치에는 PowerShell을 활용한다.
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh') 설치는 순식간에 완료되었음.
+2. Hugo 설치 Scoop을 활용하여 Hugo를 설치한다. Powershell에서 실행함.
+scoop install hugo 3. 페이지 생성 이 글을 작성하는 시점 이전에 이미 Linux 환경에서 Hugo 초기 페이지를 생성해두었기에 블로그 작업을 바로 진행할 수 있었다....</p>
 </section>
-<footer class=entry-footer>July 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;jihong</footer>
+<footer class=entry-footer>July 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;jihong</footer>
 <a class=entry-link aria-label="post link to Getting start" href=https://jihongl.github.io/post/getting-start/></a>
 </article>
 <article class=post-entry>
