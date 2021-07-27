@@ -9,7 +9,17 @@
       <link>https://jihongl.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Jul 2021 20:46:44 +0900</lastBuildDate><atom:link href="https://jihongl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 03:30:44 +0900</lastBuildDate><atom:link href="https://jihongl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting start</title>
+      <link>https://jihongl.github.io/post/getting-start/</link>
+      <pubDate>Mon, 26 Jul 2021 03:30:44 +0900</pubDate>
+      
+      <guid>https://jihongl.github.io/post/getting-start/</guid>
+      <description>Windows에서 Hugo 설정을 하기 위한 여정
+1. Scoop 설치 Hugo가</description>
+    </item>
+    
     <item>
       <title>Hello</title>
       <link>https://jihongl.github.io/post/hello/</link>
