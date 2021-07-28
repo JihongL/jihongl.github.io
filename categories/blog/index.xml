@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Meet the Jihong</title>
-    <link>https://jihongl.github.io/post/</link>
-    <description>Recent content in Posts on Meet the Jihong</description>
+    <title>blog on Meet the Jihong</title>
+    <link>https://jihongl.github.io/categories/blog/</link>
+    <description>Recent content in blog on Meet the Jihong</description>
     <image>
       <url>https://jihongl.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://jihongl.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jul 2021 17:20:44 +0900</lastBuildDate><atom:link href="https://jihongl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 17:20:44 +0900</lastBuildDate><atom:link href="https://jihongl.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting start Hugo w/ Windows</title>
       <link>https://jihongl.github.io/post/getting-start/</link>
@@ -23,15 +23,6 @@ Scoop 설치에는 PowerShell을 활용한다.
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString(&amp;#39;https://get.scoop.sh&amp;#39;) 설치는 순식간에 완료되었음.
 2. Hugo 설치 Scoop을 활용하여 Hugo를 설치한다. Powershell에서 실행함.
 scoop install hugo 3. 페이지 생성 이 글을 작성하는 시점 이전에 이미 Linux 환경에서 Hugo 초기 페이지를 생성해두었기에 블로그 작업을 바로 진행할 수 있었다.</description>
-    </item>
-    
-    <item>
-      <title>Hello</title>
-      <link>https://jihongl.github.io/post/hello/</link>
-      <pubDate>Mon, 12 Jul 2021 20:46:44 +0900</pubDate>
-      
-      <guid>https://jihongl.github.io/post/hello/</guid>
-      <description></description>
     </item>
     
   </channel>
