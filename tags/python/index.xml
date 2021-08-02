@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on Meet the Hong</title>
+    <link>https://jihongl.github.io/tags/python/</link>
+    <description>Recent content in python on Meet the Hong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Oct 2017 23:04:25 +0000</lastBuildDate><atom:link href="https://jihongl.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[파이썬] 네이버 카페 크롤링</title>
+      <link>https://jihongl.github.io/post/naver-crawl/</link>
+      <pubDate>Sun, 08 Oct 2017 23:04:25 +0000</pubDate>
+      
+      <guid>https://jihongl.github.io/post/naver-crawl/</guid>
+      <description>최근에 자연어 처리 프로젝트를 진행할 기회가 있었는데, 그 시작이 네이버 카페 게시글을 크롤링하는 것이었다. 크롤링이야 쉽게 끝날 것으로 생각했었는데 녹록지 않았음. 에러도 없고 몇 번이고 경로를 확인했지만 크롤링이 되질 않았었다. 결국, 네이버 카페가 iframe 구조로 되어있기 때문에 다른 접근을 해야 한다는 것을 알게 되었다.
+OSX, Anaconda Python 3.6에 selenium, BeautifulSoup을 사용했다.
+기본적인 코드는 아래와 같음.
+from selenium import webdriver driver = webdriver.PhantomJS() driver.get(#cafe_url) driver.switch_to_frame(&amp;#39;cafe_main&amp;#39;) page_source = driver.page_source print(page_source) driver.close() switch_to_frame을 해줘야 원하는 작동을 하는 것을 확인할 수 있었다.</description>
+    </item>
+    
+  </channel>
+</rss>
