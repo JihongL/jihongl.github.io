@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>python | Meet the Hong</title>
+<title>data sciencs | Meet the Hong</title>
 <meta name=keywords content>
 <meta name=description content="까먹기 전에 쓰기">
 <meta name=author content="jihong">
-<link rel=canonical href=https://jihongl.github.io/tags/python/>
+<link rel=canonical href=https://jihongl.github.io/tags/data-sciencs/>
 <meta name=google-site-verification content="UA-104519286-1">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://jihongl.github.io/favicon.ico>
@@ -18,13 +18,13 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.86.0">
-<link rel=alternate type=application/rss+xml href=https://jihongl.github.io/tags/python/index.xml>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-104519286-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="python">
+<link rel=alternate type=application/rss+xml href=https://jihongl.github.io/tags/data-sciencs/index.xml>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-104519286-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="data sciencs">
 <meta property="og:description" content="까먹기 전에 쓰기">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://jihongl.github.io/tags/python/"><meta property="og:site_name" content="Meet the Hong">
+<meta property="og:url" content="https://jihongl.github.io/tags/data-sciencs/"><meta property="og:site_name" content="Meet the Hong">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="python">
+<meta name=twitter:title content="data sciencs">
 <meta name=twitter:description content="까먹기 전에 쓰기">
 </head>
 <body class=list id=top>
@@ -63,33 +63,8 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://jihongl.github.io/>Home</a>&nbsp;»&nbsp;<a href=https://jihongl.github.io/tags/>Tags</a></div>
-<h1>python</h1>
+<h1>data sciencs</h1>
 </header>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>[파이썬] 주피터 노트북, 셀 결과 모두 출력하기</h2>
-</header>
-<section class=entry-content>
-<p>주로 주피터 노트북에서 파이썬을 다루고 있는데, print를 따로 해주지 않으면 한 셀마다 마지막 결괏값만 출력되게 된다.
-1+2 2*3 2**10 위의 값을 넣고 해당 셀을 실행시키면, 마지막 값인 $2^{10}$ 의 결과인 1024만 출력될 것이다. 하지만 위와 같은 간단한 수식이나 코드를 확인하고자 매번 새로운 셀을 만들어주는 것은 여간 귀찮은 것이 아니다. 이럴 경우 다음 코드를 실행해주면, 한 셀에 입력된 수식과 함수들의 결과가 모두 출력되도록 할 수 있다.
-from IPython.core.interactiveshell import InteractiveShell InteractiveShell.ast_node_interactivity = "all" 이제 다시 수식 셀을 실행하면, 각각의 결괏값이 출력된다....</p>
-</section>
-<footer class=entry-footer>October 24, 2017&nbsp;·&nbsp;1 min&nbsp;·&nbsp;jihong</footer>
-<a class=entry-link aria-label="post link to [파이썬] 주피터 노트북, 셀 결과 모두 출력하기" href=https://jihongl.github.io/tech/python/interactiveshell/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>[파이썬] 네이버 카페 크롤링</h2>
-</header>
-<section class=entry-content>
-<p>최근에 자연어 처리 프로젝트를 진행할 기회가 있었는데, 그 시작이 네이버 카페 게시글을 크롤링하는 것이었다. 크롤링이야 쉽게 끝날 것으로 생각했었는데 녹록지 않았음. 에러도 없고 몇 번이고 경로를 확인했지만 크롤링이 되질 않았었다. 결국, 네이버 카페가 iframe 구조로 되어있기 때문에 다른 접근을 해야 한다는 것을 알게 되었다.
-OSX, Anaconda Python 3.6에 selenium, BeautifulSoup을 사용했다.
-기본적인 코드는 아래와 같음.
-from selenium import webdriver driver = webdriver.PhantomJS() driver.get(#cafe_url) driver.switch_to_frame('cafe_main') page_source = driver.page_source print(page_source) driver.close() switch_to_frame을 해줘야 원하는 작동을 하는 것을 확인할 수 있었다....</p>
-</section>
-<footer class=entry-footer>October 8, 2017&nbsp;·&nbsp;1 min&nbsp;·&nbsp;jihong</footer>
-<a class=entry-link aria-label="post link to [파이썬] 네이버 카페 크롤링" href=https://jihongl.github.io/tech/python/naver-crawl/></a>
-</article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
 <h2>Tensorflow model 저장 및 불러오기</h2>
