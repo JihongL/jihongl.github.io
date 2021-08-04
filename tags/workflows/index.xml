@@ -8,10 +8,10 @@
     <lastBuildDate>Wed, 28 Jul 2021 18:34:54 +0900</lastBuildDate><atom:link href="https://thehong.xyz/tags/workflows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jira Service Management 구성기 - Workflows와 Approval</title>
-      <link>https://thehong.xyz/tech/jira/jira-workflow/</link>
+      <link>https://thehong.xyz/post/jira/jira-workflow/</link>
       <pubDate>Wed, 28 Jul 2021 18:34:54 +0900</pubDate>
       
-      <guid>https://thehong.xyz/tech/jira/jira-workflow/</guid>
+      <guid>https://thehong.xyz/post/jira/jira-workflow/</guid>
       <description>몸담은 팀의 업무 범위가 늘어나며 문의가 점점 많아지기 시작했다. 다른 팀에선 이슈가 생겼을 때 누구에게 연락해야 하는지 모르기에 조직도의 가장 아래에 있거나 일면식이 있는 팀원에게 연락하기 마련. 이로 인해 특정 구성원에게 자잘한 업무가 몰리고 커뮤니케이션의 비효율을 초래하기 시작하였다.
 다행히도 Jira를 도입한 상태였기에 Jira Service Management를 시작하면 되겠다고 생각, 팀의 Admin을 자처하여 구성하겠노라 선언했다. 글로벌 솔루션이니 쉬운 줄 알았거든. 과거형으로 표현한 것은 당연히 녹록지 않았다는 것. 좋은 말로는 세세한 커스터마이징이 가능한, 다른 말로는 작은 것 하나하나 다 신경 써야 하는 이 녀석을 다루며 당황했던 순간을 까먹기 전에 써두려 한다.</description>
     </item>

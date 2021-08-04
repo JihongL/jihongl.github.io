@@ -8,10 +8,10 @@
     <lastBuildDate>Wed, 04 Aug 2021 22:34:54 +0900</lastBuildDate><atom:link href="https://thehong.xyz/tags/pbi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power BI 테넌트 서울 리전으로 변경</title>
-      <link>https://thehong.xyz/tech/powerbi/change-tenant/</link>
+      <link>https://thehong.xyz/post/powerbi/change-tenant/</link>
       <pubDate>Wed, 04 Aug 2021 22:34:54 +0900</pubDate>
       
-      <guid>https://thehong.xyz/tech/powerbi/change-tenant/</guid>
+      <guid>https://thehong.xyz/post/powerbi/change-tenant/</guid>
       <description>Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.
 Power BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.
 테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.</description>

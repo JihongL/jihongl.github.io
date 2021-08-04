@@ -18,6 +18,10 @@
     <lastmod>2021-08-04T22:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://thehong.xyz/post/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://thehong.xyz/tags/power-bi/</loc>
     <lastmod>2021-08-04T22:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -26,7 +30,7 @@
     <lastmod>2021-08-04T22:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/powerbi/change-tenant/</loc>
+    <loc>https://thehong.xyz/post/powerbi/change-tenant/</loc>
     <lastmod>2021-08-04T22:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -34,15 +38,11 @@
     <lastmod>2021-08-04T22:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/</loc>
-    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://thehong.xyz/tags/jira/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/jira/jira-workflow/</loc>
+    <loc>https://thehong.xyz/post/jira/jira-workflow/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -62,7 +62,7 @@
     <lastmod>2021-07-27T17:20:44+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/getting-start-hugo/</loc>
+    <loc>https://thehong.xyz/post/getting-start-hugo/</loc>
     <lastmod>2021-07-27T17:20:44+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -74,7 +74,7 @@
     <lastmod>2021-07-27T17:20:44+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/python/interactiveshell/</loc>
+    <loc>https://thehong.xyz/post/python/interactiveshell/</loc>
     <lastmod>2017-10-24T17:22:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -94,7 +94,7 @@
     <lastmod>2017-10-24T17:22:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/python/naver-crawl/</loc>
+    <loc>https://thehong.xyz/post/python/naver-crawl/</loc>
     <lastmod>2017-10-08T23:04:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -110,7 +110,7 @@
     <lastmod>2017-09-24T19:19:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/analytics/svm/</loc>
+    <loc>https://thehong.xyz/post/analytics/svm/</loc>
     <lastmod>2017-09-24T19:19:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -126,7 +126,7 @@
     <lastmod>2017-08-22T17:27:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tech/python/tensorflow-model-saveload/</loc>
+    <loc>https://thehong.xyz/post/python/tensorflow-model-saveload/</loc>
     <lastmod>2017-08-22T17:27:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
