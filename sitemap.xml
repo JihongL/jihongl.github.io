@@ -2,111 +2,131 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jihongl.github.io/categories/</loc>
+    <loc>https://thehong.xyz/tags/bi/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/categories/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/pbi/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/power-bi/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/categories/power-bi/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tech/powerbi/change-tenant/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tech/</loc>
+    <lastmod>2021-08-04T22:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/jira/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/jira/</loc>
+    <loc>https://thehong.xyz/tech/jira/jira-workflow/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tech/jira/jira-workflow/</loc>
+    <loc>https://thehong.xyz/tags/service-management/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/</loc>
+    <loc>https://thehong.xyz/categories/solution/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/service-management/</loc>
+    <loc>https://thehong.xyz/tags/workflows/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/categories/solution/</loc>
-    <lastmod>2021-07-28T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jihongl.github.io/tags/</loc>
-    <lastmod>2021-07-28T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jihongl.github.io/tech/</loc>
-    <lastmod>2021-07-28T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jihongl.github.io/tags/workflows/</loc>
-    <lastmod>2021-07-28T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jihongl.github.io/categories/blog/</loc>
+    <loc>https://thehong.xyz/categories/blog/</loc>
     <lastmod>2021-07-27T17:20:44+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tech/getting-start-hugo/</loc>
+    <loc>https://thehong.xyz/tech/getting-start-hugo/</loc>
     <lastmod>2021-07-27T17:20:44+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/hugo/</loc>
+    <loc>https://thehong.xyz/tags/hugo/</loc>
     <lastmod>2021-07-27T17:20:44+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/scoop/</loc>
+    <loc>https://thehong.xyz/tags/scoop/</loc>
     <lastmod>2021-07-27T17:20:44+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tech/python/interactiveshell/</loc>
+    <loc>https://thehong.xyz/tech/python/interactiveshell/</loc>
     <lastmod>2017-10-24T17:22:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/ipynb/</loc>
+    <loc>https://thehong.xyz/tags/ipynb/</loc>
     <lastmod>2017-10-24T17:22:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/jupyter/</loc>
+    <loc>https://thehong.xyz/tags/jupyter/</loc>
     <lastmod>2017-10-24T17:22:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/python/</loc>
+    <loc>https://thehong.xyz/tags/python/</loc>
     <lastmod>2017-10-24T17:22:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/categories/python/</loc>
+    <loc>https://thehong.xyz/categories/python/</loc>
     <lastmod>2017-10-24T17:22:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tech/python/naver-crawl/</loc>
+    <loc>https://thehong.xyz/tech/python/naver-crawl/</loc>
     <lastmod>2017-10-08T23:04:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/crawling/</loc>
+    <loc>https://thehong.xyz/tags/crawling/</loc>
     <lastmod>2017-10-08T23:04:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/analytics/</loc>
+    <loc>https://thehong.xyz/tags/analytics/</loc>
     <lastmod>2017-09-24T19:19:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/categories/analytics/</loc>
+    <loc>https://thehong.xyz/categories/analytics/</loc>
     <lastmod>2017-09-24T19:19:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tech/analytics/svm/</loc>
+    <loc>https://thehong.xyz/tech/analytics/svm/</loc>
     <lastmod>2017-09-24T19:19:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/categories/data-science/</loc>
+    <loc>https://thehong.xyz/categories/data-science/</loc>
     <lastmod>2017-08-22T17:27:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/data-sciencs/</loc>
+    <loc>https://thehong.xyz/tags/data-sciencs/</loc>
     <lastmod>2017-08-22T17:27:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tags/tensorflow/</loc>
+    <loc>https://thehong.xyz/tags/tensorflow/</loc>
     <lastmod>2017-08-22T17:27:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jihongl.github.io/tech/python/tensorflow-model-saveload/</loc>
+    <loc>https://thehong.xyz/tech/python/tensorflow-model-saveload/</loc>
     <lastmod>2017-08-22T17:27:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
