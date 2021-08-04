@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Meet the Hong</title>
-    <link>https://jihongl.github.io/tags/</link>
+    <link>https://thehong.xyz/tags/</link>
     <description>Recent content in Tags on Meet the Hong</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Jul 2021 18:34:54 +0900</lastBuildDate><atom:link href="https://jihongl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 18:34:54 +0900</lastBuildDate><atom:link href="https://thehong.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>jira</title>
-      <link>https://jihongl.github.io/tags/jira/</link>
+      <link>https://thehong.xyz/tags/jira/</link>
       <pubDate>Wed, 28 Jul 2021 18:34:54 +0900</pubDate>
       
-      <guid>https://jihongl.github.io/tags/jira/</guid>
+      <guid>https://thehong.xyz/tags/jira/</guid>
       <description></description>
     </item>
     
     <item>
       <title>service management</title>
-      <link>https://jihongl.github.io/tags/service-management/</link>
+      <link>https://thehong.xyz/tags/service-management/</link>
       <pubDate>Wed, 28 Jul 2021 18:34:54 +0900</pubDate>
       
-      <guid>https://jihongl.github.io/tags/service-management/</guid>
+      <guid>https://thehong.xyz/tags/service-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>workflows</title>
-      <link>https://jihongl.github.io/tags/workflows/</link>
+      <link>https://thehong.xyz/tags/workflows/</link>
       <pubDate>Wed, 28 Jul 2021 18:34:54 +0900</pubDate>
       
-      <guid>https://jihongl.github.io/tags/workflows/</guid>
+      <guid>https://thehong.xyz/tags/workflows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://jihongl.github.io/tags/hugo/</link>
+      <link>https://thehong.xyz/tags/hugo/</link>
       <pubDate>Tue, 27 Jul 2021 17:20:44 +0900</pubDate>
       
-      <guid>https://jihongl.github.io/tags/hugo/</guid>
+      <guid>https://thehong.xyz/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scoop</title>
-      <link>https://jihongl.github.io/tags/scoop/</link>
+      <link>https://thehong.xyz/tags/scoop/</link>
       <pubDate>Tue, 27 Jul 2021 17:20:44 +0900</pubDate>
       
-      <guid>https://jihongl.github.io/tags/scoop/</guid>
+      <guid>https://thehong.xyz/tags/scoop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>crawling</title>
-      <link>https://jihongl.github.io/tags/crawling/</link>
+      <link>https://thehong.xyz/tags/crawling/</link>
       <pubDate>Sun, 08 Oct 2017 23:04:25 +0000</pubDate>
       
-      <guid>https://jihongl.github.io/tags/crawling/</guid>
+      <guid>https://thehong.xyz/tags/crawling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://jihongl.github.io/tags/python/</link>
+      <link>https://thehong.xyz/tags/python/</link>
       <pubDate>Sun, 08 Oct 2017 23:04:25 +0000</pubDate>
       
-      <guid>https://jihongl.github.io/tags/python/</guid>
+      <guid>https://thehong.xyz/tags/python/</guid>
       <description></description>
     </item>
     
