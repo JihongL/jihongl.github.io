@@ -5,7 +5,17 @@
     <link>https://thehong.xyz/tags/pbi/</link>
     <description>Recent content in pbi on Meet the Hong</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 Aug 2021 22:34:54 +0900</lastBuildDate><atom:link href="https://thehong.xyz/tags/pbi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 18:34:54 +0900</lastBuildDate><atom:link href="https://thehong.xyz/tags/pbi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Gateway 없이 Power BI Service에서 Excel을 소스로 쓰기</title>
+      <link>https://thehong.xyz/post/powerbi/source-from-web/</link>
+      <pubDate>Tue, 10 Aug 2021 18:34:54 +0900</pubDate>
+      
+      <guid>https://thehong.xyz/post/powerbi/source-from-web/</guid>
+      <description>Power BI 작업을 하면 대부분 분석계 데이터베이스를 소스로 데이터를 확보하는 경우가 대부분이다. 하지만, DB에 익숙하지 않은 조직원들이 Power BI를 활용할 때는 아무래도 Excel을 소스로 활용하게 되는 경우가 많다. 아직 DB에 쌓이지 않은 데이터를 활용해야 할 때도 마찬가지.
+당연히 Excel로 소스로 활용할 수 있어 당장 개인이 작업할 때는 문제가 없다. 이슈가 생기기 시작할 때는 Power BI Service에 게시한 이후. 개인 로컬 환경에 있는 Excel을 원본으로 하는 보고서를 그대로 게시하면 이후 새로 고침을 위해 Personal Gateway 구성이 필요하다.</description>
+    </item>
+    
     <item>
       <title>Power BI 테넌트 서울 리전으로 변경</title>
       <link>https://thehong.xyz/post/powerbi/change-tenant/</link>

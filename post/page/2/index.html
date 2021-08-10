@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://thehong.xyz/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.86.0">
+<meta name=generator content="Hugo 0.86.1">
 <link rel=alternate type=application/rss+xml href=https://thehong.xyz/post/index.xml>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-104519286-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="Posts">
 <meta property="og:description" content="까먹기 전에 쓰기">
@@ -66,6 +66,19 @@
 <header class=page-header><div class=breadcrumbs><a href=https://thehong.xyz/>Home</a></div>
 <h1>Posts</h1>
 </header>
+<article class=post-entry>
+<header class=entry-header>
+<h2>[파이썬] 네이버 카페 크롤링</h2>
+</header>
+<section class=entry-content>
+<p>최근에 자연어 처리 프로젝트를 진행할 기회가 있었는데, 그 시작이 네이버 카페 게시글을 크롤링하는 것이었다. 크롤링이야 쉽게 끝날 것으로 생각했었는데 녹록지 않았음. 에러도 없고 몇 번이고 경로를 확인했지만 크롤링이 되질 않았었다. 결국, 네이버 카페가 iframe 구조로 되어있기 때문에 다른 접근을 해야 한다는 것을 알게 되었다.
+OSX, Anaconda Python 3.6에 selenium, BeautifulSoup을 사용했다.
+기본적인 코드는 아래와 같음.
+from selenium import webdriver driver = webdriver.PhantomJS() driver.get(#cafe_url) driver.switch_to_frame('cafe_main') page_source = driver.page_source print(page_source) driver.close() switch_to_frame을 해줘야 원하는 작동을 하는 것을 확인할 수 있었다....</p>
+</section>
+<footer class=entry-footer>October 8, 2017&nbsp;·&nbsp;1 min&nbsp;·&nbsp;jihong</footer>
+<a class=entry-link aria-label="post link to [파이썬] 네이버 카페 크롤링" href=https://thehong.xyz/post/python/naver-crawl/></a>
+</article>
 <article class=post-entry>
 <header class=entry-header>
 <h2>Support Vector Machine (SVM)</h2>
