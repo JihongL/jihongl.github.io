@@ -7,7 +7,7 @@
 <meta name=keywords content="power bi,pbi,bi">
 <meta name=description content="Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.
 Power BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.
-테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.">
+        테넌트 확인 절차    테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.">
 <meta name=author content="jihong">
 <link rel=canonical href=https://thehong.xyz/post/powerbi/change-tenant/>
 <meta name=google-site-verification content="UA-104519286-1">
@@ -20,11 +20,11 @@ Power BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후
 <link rel=mask-icon href=https://thehong.xyz/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.86.1">
+<meta name=generator content="Hugo 0.86.0">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-104519286-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="Power BI 테넌트 서울 리전으로 변경">
 <meta property="og:description" content="Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.
 Power BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.
-테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.">
+        테넌트 확인 절차    테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://thehong.xyz/post/powerbi/change-tenant/"><meta property="article:section" content="post">
 <meta property="article:published_time" content="2021-08-04T22:34:54+09:00">
@@ -33,9 +33,9 @@ Power BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후
 <meta name=twitter:title content="Power BI 테넌트 서울 리전으로 변경">
 <meta name=twitter:description content="Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.
 Power BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.
-테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.">
+        테넌트 확인 절차    테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://thehong.xyz/post/"},{"@type":"ListItem","position":2,"name":"Power BI 테넌트 서울 리전으로 변경","item":"https://thehong.xyz/post/powerbi/change-tenant/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Power BI 테넌트 서울 리전으로 변경","name":"Power BI 테넌트 서울 리전으로 변경","description":"Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.\nPower BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.\n테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.","keywords":["power bi","pbi","bi"],"articleBody":"Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.\nPower BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.\n테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.\n정녕 감당할 수 있으십니까 테넌트 수정을 위해 이리저리 메뉴를 뒤져봤지만 관련된 설정을 찾을 수 없었다. 불행히도 한 번 정해진 테넌트는 변경할 수 없다는 문서를 확인하게 되었음. 하지만 여기서 포기할 수 없지. Support Ticket을 발행하여 Microsoft에 직접 문의, 조직과 연결된 테넌트를 변경할 수 있다는 것을 알게 되었다.\n여기서 주의할 것, 기존 테넌트의 설정과 게시된 보고서 등 모든 데이터가 소멸된다. 다행히 막 Power BI를 도입한 시기였기에 상대적으로 영향도가 작다고 판단, 기존 홍콩 테넌트를 폐기하고 서울 테넌트를 새로이 연결하기로 결정했다.\nSupport Ticket은 현재 Power platfrom admin center에서 발행할 수 있으니 참고.\n테넌트 변경과 관련된 참고사항 Microsoft와 테넌트 이전 관련하여 확인한 내용은 아래와 같다.\n 기존 테넌트의 각종 설정과 게시된 보고서 등 모든 데이터는 소멸 테넌트를 새로이 연동하는 작업은 약 2~3시간 소요 현 시점으로부터 최소 2주 뒤 일정으로 진행할 수 있음  서로 다른 3개의 일정(희망하는 일자와 시간)을 전달   이전 요청은 M365 Global Admin 유저만이 진행할 수 있음  신청서에 M365 구독 정보를 기입해야 함    장막을 들추고 엿보니 MS와 협의한 일정은 일요일 저녁이었다. 해외 사무실에 자리한 엔지니어가 대응해준다는 듯. 시작부터 약 2시간이 소요된다고 한 작업, 궁금해서 한 30분 후에 슬쩍 천막을 들춰봤는데…\n벌써 마무리가 다 되어 서울 테넌트로 변경되어 있었다.\n확실히 위치가 홍콩에서 한국으로 바뀌니 같은 보고서도 좀 더 빠르게 조회가 되는 것이 느껴졌다.\n이 글을 읽는 분은 대부분 한국 사용자일텐데, 데이터 소멸에 대한 영향도가 크기 않다면 이전을 권한다.\n","wordCount":"299","inLanguage":"en","datePublished":"2021-08-04T22:34:54+09:00","dateModified":"2021-08-04T22:34:54+09:00","author":{"@type":"Person","name":"jihong"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://thehong.xyz/post/powerbi/change-tenant/"},"publisher":{"@type":"Organization","name":"Meet the Hong","logo":{"@type":"ImageObject","url":"https://thehong.xyz/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Power BI 테넌트 서울 리전으로 변경","name":"Power BI 테넌트 서울 리전으로 변경","description":"Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.\nPower BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.\n        테넌트 확인 절차    테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.","keywords":["power bi","pbi","bi"],"articleBody":"Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.\nPower BI 테넌트, 홍콩에 있다구? 현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.\n        테넌트 확인 절차    테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.\n정녕 감당할 수 있으십니까 테넌트 수정을 위해 이리저리 메뉴를 뒤져봤지만 관련된 설정을 찾을 수 없었다. 불행히도 한 번 정해진 테넌트는 변경할 수 없다는 문서를 확인하게 되었음. 하지만 여기서 포기할 수 없지. Support Ticket을 발행하여 Microsoft에 직접 문의, 조직과 연결된 테넌트를 변경할 수 있다는 것을 알게 되었다.\n여기서 주의할 것, 기존 테넌트의 설정과 게시된 보고서 등 모든 데이터가 소멸된다. 다행히 막 Power BI를 도입한 시기였기에 상대적으로 영향도가 작다고 판단, 기존 홍콩 테넌트를 폐기하고 서울 테넌트를 새로이 연결하기로 결정했다.\nSupport Ticket은 현재 Power platfrom admin center에서 발행할 수 있으니 참고.\n테넌트 변경과 관련된 참고사항 Microsoft와 테넌트 이전 관련하여 확인한 내용은 아래와 같다.\n 기존 테넌트의 각종 설정과 게시된 보고서 등 모든 데이터는 소멸 테넌트를 새로이 연동하는 작업은 약 2~3시간 소요 현 시점으로부터 최소 2주 뒤 일정으로 진행할 수 있음  서로 다른 3개의 일정(희망하는 일자와 시간)을 전달    장막을 들추고 엿보니 MS와 협의한 일정은 일요일 저녁이었다. 해외 사무실에 자리한 엔지니어가 대응해준다는 듯. 시작부터 약 2시간이 소요된다고 한 작업, 궁금해서 한 30분 후에 슬쩍 천막을 들춰봤는데…\n        촛불을 꺼뜨리는가?    벌써 마무리가 다 되어 서울 테넌트로 변경되어 있었다.\n확실히 위치가 홍콩에서 한국으로 바뀌니 같은 보고서도 좀 더 빠르게 조회가 되는 것이 느껴졌다.\n이 글을 읽는 분은 대부분 한국 사용자일텐데, 데이터 소멸에 대한 영향도가 크기 않다면 이전을 권한다.\n","wordCount":"289","inLanguage":"en","datePublished":"2021-08-04T22:34:54+09:00","dateModified":"2021-08-04T22:34:54+09:00","author":{"@type":"Person","name":"jihong"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://thehong.xyz/post/powerbi/change-tenant/"},"publisher":{"@type":"Organization","name":"Meet the Hong","logo":{"@type":"ImageObject","url":"https://thehong.xyz/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -84,8 +84,19 @@ Power BI 테넌트 서울 리전으로 변경
 <div class=post-content><p>Microsoft Power BI의 구축과 운영을 담당하며 겪었던 이벤트를 기록하려 한다. 그 첫 번째로 Power BI 테넌트를 홍콩에서 서울로 이전한 경험을 까먹기 전에 공유.</p>
 <h1 id=power-bi-테넌트-홍콩에-있다구>Power BI 테넌트, 홍콩에 있다구?<a hidden class=anchor aria-hidden=true href=#power-bi-테넌트-홍콩에-있다구>#</a></h1>
 <p>현 조직의 Power BI를 구축한 후, Power BI Service에서 보고서를 조회할 때 뭔가 반응이 느리다는 느낌을 받아왔다. 하여 성능개선을 위해 다양한 방안을 시도하던 중, 홍콩 리전의 Power BI 테넌트와 연결된 것을 확인할 수 있었다.</p>
-<p><img loading=lazy src=/images/change-tenant/01.png alt>
-</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:center><img loading=lazy src=/images/change-tenant/01.png alt>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>테넌트 확인 절차</td>
+</tr>
+</tbody>
+</table>
 <p>테넌트를 서울로 옮기면 물리적인 거리가 줄기에 통신 시간이 줄어들 뿐더러, 해외 데이터 센터에 데이터가 저장됨으로 발생할 수 있는 각종 문제도 예방할 수 있을 것으로 기대됐다.</p>
 <h2 id=정녕-감당할-수-있으십니까>정녕 감당할 수 있으십니까<a hidden class=anchor aria-hidden=true href=#정녕-감당할-수-있으십니까>#</a></h2>
 <p>테넌트 수정을 위해 이리저리 메뉴를 뒤져봤지만 관련된 설정을 찾을 수 없었다. 불행히도 <a href=https://docs.microsoft.com/en-us/power-bi/admin/service-admin-where-is-my-tenant-located#how-the-data-region-is-selected>한 번 정해진 테넌트는 변경할 수 없다</a>는 문서를 확인하게 되었음. 하지만 여기서 포기할 수 없지. Support Ticket을 발행하여 Microsoft에 직접 문의, 조직과 연결된 테넌트를 변경할 수 있다는 것을 알게 되었다.</p>
@@ -101,16 +112,22 @@ Power BI 테넌트 서울 리전으로 변경
 <li>서로 다른 3개의 일정(희망하는 일자와 시간)을 전달</li>
 </ul>
 </li>
-<li>이전 요청은 M365 Global Admin 유저만이 진행할 수 있음
-<ul>
-<li>신청서에 M365 구독 정보를 기입해야 함</li>
-</ul>
-</li>
 </ul>
 <h2 id=장막을-들추고-엿보니>장막을 들추고 엿보니<a hidden class=anchor aria-hidden=true href=#장막을-들추고-엿보니>#</a></h2>
 <p>MS와 협의한 일정은 일요일 저녁이었다. 해외 사무실에 자리한 엔지니어가 대응해준다는 듯. 시작부터 약 2시간이 소요된다고 한 작업, 궁금해서 한 30분 후에 슬쩍 천막을 들춰봤는데&mldr;</p>
-<p><img loading=lazy src=/images/change-tenant/02.gif alt>
-</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:center><img loading=lazy src=/images/change-tenant/02.gif alt>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>촛불을 꺼뜨리는가?</td>
+</tr>
+</tbody>
+</table>
 <p>벌써 마무리가 다 되어 서울 테넌트로 변경되어 있었다.</p>
 <p>확실히 위치가 홍콩에서 한국으로 바뀌니 같은 보고서도 좀 더 빠르게 조회가 되는 것이 느껴졌다.</p>
 <p>이 글을 읽는 분은 대부분 한국 사용자일텐데, 데이터 소멸에 대한 영향도가 크기 않다면 이전을 권한다.</p>
