@@ -5,7 +5,34 @@
     <link>https://thehong.xyz/tags/</link>
     <description>Recent content in Tags on Meet the Hong</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 18:34:54 +0900</lastBuildDate><atom:link href="https://thehong.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 19:00:00 +0900</lastBuildDate><atom:link href="https://thehong.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>automate</title>
+      <link>https://thehong.xyz/tags/automate/</link>
+      <pubDate>Wed, 11 Aug 2021 19:00:00 +0900</pubDate>
+      
+      <guid>https://thehong.xyz/tags/automate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jira</title>
+      <link>https://thehong.xyz/tags/jira/</link>
+      <pubDate>Wed, 11 Aug 2021 19:00:00 +0900</pubDate>
+      
+      <guid>https://thehong.xyz/tags/jira/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service management</title>
+      <link>https://thehong.xyz/tags/service-management/</link>
+      <pubDate>Wed, 11 Aug 2021 19:00:00 +0900</pubDate>
+      
+      <guid>https://thehong.xyz/tags/service-management/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>pbi</title>
       <link>https://thehong.xyz/tags/pbi/</link>
@@ -30,24 +57,6 @@
       <pubDate>Wed, 04 Aug 2021 22:34:54 +0900</pubDate>
       
       <guid>https://thehong.xyz/tags/bi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jira</title>
-      <link>https://thehong.xyz/tags/jira/</link>
-      <pubDate>Wed, 28 Jul 2021 18:34:54 +0900</pubDate>
-      
-      <guid>https://thehong.xyz/tags/jira/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>service management</title>
-      <link>https://thehong.xyz/tags/service-management/</link>
-      <pubDate>Wed, 28 Jul 2021 18:34:54 +0900</pubDate>
-      
-      <guid>https://thehong.xyz/tags/service-management/</guid>
       <description></description>
     </item>
     

@@ -67,6 +67,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Jira Automate - 지연된 이슈에 알림 설정</h2>
+</header>
+<section class=entry-content>
+<p>이전에 이슈 진행 과정을 jira workflows1에서 정의했다. 이 workflow 양식을 따르는 이슈는 특정 사용자의 승인이 완료되어야 다음 단계로 진행할 수 있는데… 보통 승인권자들이 바쁘다 보니 이런저런 이유로 지연되는 경우가 빈번히 발생하였다. 매번 직접 연락드리기도 민망하여 jira automate로 지연되고 있다는 사실을 알려주는 규칙을 구성하였는데, 까먹기 전에 공유.
+Automate로 매일 9시에 알림 메일 보내기 구상한 조건은 다음과 같다.
+매일 아침 9시에 동작 승인 단계에서 3일 이상 지연된 이슈 대상 승인권자에게 승인이 필요함을 알려주는 메일 발송 메일 내용에는 요청자와 이슈 내용을 볼 수 있는 링크 등이 포함 매일 아침 9시에 동작 Automate 설정으로 이동, Create Rule을 선택하여 규칙 생성으로 이동하면 해당 규칙이 어떤 조건에서 실행할 것인지 트리거를 선택하도록 안내한다....</p>
+</section>
+<footer class=entry-footer>August 11, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;jihong</footer>
+<a class=entry-link aria-label="post link to Jira Automate - 지연된 이슈에 알림 설정" href=https://thehong.xyz/post/jira/automate-mail/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Jira Service Management 구성기 - Workflows와 Approval</h2>
 </header>
 <section class=entry-content>

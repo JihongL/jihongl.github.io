@@ -2,12 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://thehong.xyz/tags/automate/</loc>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://thehong.xyz/categories/</loc>
-    <lastmod>2021-08-10T18:34:54+09:00</lastmod>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/jira/</loc>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/post/jira/automate-mail/</loc>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://thehong.xyz/</loc>
-    <lastmod>2021-08-10T18:34:54+09:00</lastmod>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/post/</loc>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/service-management/</loc>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/categories/solution/</loc>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/</loc>
+    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://thehong.xyz/tags/pbi/</loc>
@@ -15,10 +43,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://thehong.xyz/post/powerbi/source-from-web/</loc>
-    <lastmod>2021-08-10T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://thehong.xyz/post/</loc>
     <lastmod>2021-08-10T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -30,10 +54,6 @@
     <lastmod>2021-08-10T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tags/</loc>
-    <lastmod>2021-08-10T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://thehong.xyz/tags/bi/</loc>
     <lastmod>2021-08-04T22:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -42,19 +62,7 @@
     <lastmod>2021-08-04T22:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/tags/jira/</loc>
-    <lastmod>2021-07-28T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://thehong.xyz/post/jira/jira-workflow/</loc>
-    <lastmod>2021-07-28T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://thehong.xyz/tags/service-management/</loc>
-    <lastmod>2021-07-28T18:34:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://thehong.xyz/categories/solution/</loc>
     <lastmod>2021-07-28T18:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
