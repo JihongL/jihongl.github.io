@@ -96,5 +96,6 @@ from selenium import webdriver driver = webdriver.PhantomJS() driver.get(#cafe_u
 예를 들어 10,000개의 데이터를 batch_size 100으로 fit 하게 되면 100 step마다 1 epoch가 끝나게 되고, 파일명.100 (1 epoch) 파일명.200 (2 epoch) 파일명.</description>
     </item>
     
+    
   </channel>
 </rss>
