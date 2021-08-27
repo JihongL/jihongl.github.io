@@ -12,16 +12,10 @@
       <pubDate>Tue, 22 Aug 2017 17:27:59 +0000</pubDate>
       
       <guid>https://thehong.xyz/post/python/tensorflow-model-saveload/</guid>
-      <description>딥러닝은 학습시키는 시간이 길다보니, 중간중간 저장과 불러오기가 필수.
-이번에는 tflearn을 활용하는 방법을 작성하고자 한다.
-모델을 만들 때,
-model = tflearn.DNN(network, checkpoint_path=&amp;quot;파일명&amp;quot;)
-위와 같이 checkpoint_path=를 설정해주면, 코드가 위치한 경로에 지정한 파일명으로 checkpoint가 저장된다.
-해당 모델을 다음과 같이 실행하면 한 epoch가 완료될 때마다 파일명.setps로 checkpoint가 생성된다.
-model.fit(X, Y, batch_size=100, n_epoch=10, run_id=&#39;모델명&#39;, show_metric=True)
-예를 들어 10,000개의 데이터를 batch_size 100으로 fit 하게 되면 100 step마다 1 epoch가 끝나게 되고,
-파일명.100 (1 epoch)
-파일명.200 (2 epoch)</description>
+      <description>딥러닝은 학습시키는 시간이 길다보니, 중간중간 저장과 불러오기가 필수. 이번에는 tflearn을 활용하는 방법을 작성하고자 한다.
+모델을 만들 때, model = tflearn.DNN(network, checkpoint_path=&amp;quot;파일명&amp;quot;) 위와 같이 checkpoint_path=를 설정해주면, 코드가 위치한 경로에 지정한 파일명으로 checkpoint가 저장된다.
+해당 모델을 다음과 같이 실행하면 한 epoch가 완료될 때마다 파일명.setps로 checkpoint가 생성된다. model.fit(X, Y, batch_size=100, n_epoch=10, run_id=&#39;모델명&#39;, show_metric=True)
+예를 들어 10,000개의 데이터를 batch_size 100으로 fit 하게 되면 100 step마다 1 epoch가 끝나게 되고, 파일명.100 (1 epoch) 파일명.200 (2 epoch) 파일명.</description>
     </item>
     
   </channel>
