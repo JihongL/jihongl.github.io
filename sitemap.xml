@@ -2,11 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thehong.xyz/tags/automate/</loc>
-    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
+    <loc>https://thehong.xyz/categories/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/categories/</loc>
+    <loc>https://thehong.xyz/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/microsoft/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/post/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/power-apps/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/categories/power-apps/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/post/powerapps/ip-address/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/power-platform/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/</loc>
+    <lastmod>2021-08-27T16:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://thehong.xyz/tags/automate/</loc>
     <lastmod>2021-08-11T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -18,23 +50,11 @@
     <lastmod>2021-08-11T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://thehong.xyz/</loc>
-    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://thehong.xyz/post/</loc>
-    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://thehong.xyz/tags/service-management/</loc>
     <lastmod>2021-08-11T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://thehong.xyz/categories/solution/</loc>
-    <lastmod>2021-08-11T19:00:00+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://thehong.xyz/tags/</loc>
     <lastmod>2021-08-11T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
